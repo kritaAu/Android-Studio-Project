@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg1test"
+    android:background="@drawable/bg22"
     tools:context=".RegisterActivity">
 
     <TextView
@@ -23,7 +23,7 @@
     <EditText
         android:id="@+id/inputUsername"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginStart="32dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
@@ -44,7 +44,7 @@
     <EditText
         android:id="@+id/inputpass"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
         android:ems="10"
@@ -64,7 +64,7 @@
     <EditText
         android:id="@+id/inputconfirmpass"
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/input_bg"
         android:ems="10"
@@ -98,7 +98,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Already Have Account??"
-        android:textColor="#FFFFFF"
+        android:textColor="#757070"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="@+id/btnLogin"
         app:layout_constraintStart_toStartOf="@+id/btnLogin"
